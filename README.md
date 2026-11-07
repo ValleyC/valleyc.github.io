@@ -12,7 +12,7 @@ The `.nojekyll` file disables Jekyll processing.
 
 ## Files
 
-- `index.html`: biography, six publications, teaching, and contact information.
+- `index.html`: biography, six publications, awards and scholarships, teaching, and contact information.
 - `styles.css`: responsive layout and light and dark themes.
 - `site.js`: navigation, publication search, filters, and citation tools.
 - `assets/references.bib`: downloadable bibliography.

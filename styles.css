@@ -233,3 +233,16 @@ dialog pre {white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.8 ui-monospa
 }
 @media(prefers-reduced-motion:reduce) {html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media print {.site-header,.profile,.publication-search-row,.publication-controls,.paper-links button,.bibliography-download,footer{display:none}.page-layout{display:block;padding:0}.page-section[hidden]{display:block!important}.page-section{break-before:page}.page-section:first-child{break-before:auto}.publication{break-inside:avoid}a{color:inherit}}
+
+/* Awards share the site's academic timeline layout and theme colors. */
+.awards-list {margin-top:30px}
+.awards-list li {padding-bottom:23px;border-bottom:1px solid var(--line);margin-bottom:23px}
+.awards-list li:last-child {border-bottom:0;padding-bottom:0}
+.awards-list h2 {font-size:15px;line-height:1.6;font-weight:600;margin:0 0 5px}
+.awards-list h2 a {color:var(--ink);text-decoration:none}
+.awards-list h2 a:hover {color:var(--blue);text-decoration:underline}
+.awards-list .award-detail {margin-top:7px}
+.recognition-link {margin:22px 0 0;font-size:12px}
+.recognition-link a {display:inline-flex;align-items:center;gap:7px;text-decoration:none}
+.recognition-link a:hover {text-decoration:underline}
+.recognition-link .lucide {width:13px;height:13px}

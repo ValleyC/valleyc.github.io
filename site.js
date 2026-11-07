@@ -4,7 +4,7 @@ const refreshIcons = () => window.lucide?.createIcons();
 refreshIcons();
 
 const sections = $$('.page-section');
-const pageNames = { about: 'About', publications: 'Publications', teaching: 'Teaching', contact: 'Contact' };
+const pageNames = { about: 'About', publications: 'Publications', awards: 'Awards & Scholarships', teaching: 'Teaching', contact: 'Contact' };
 const menu = $('#main-nav');
 const menuButton = $('#menu-toggle');
 function setMenu(open) {
